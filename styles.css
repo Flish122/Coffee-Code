@@ -1,0 +1,71 @@
+:root {
+    --bg-color: honeydew;
+    --font-family:"Franklin Gothic Medium", "Arial Black", Arial, sans-serif;
+    --text-shadow: 7px 7px 5px gray;
+}
+
+body {
+    margin: 0 auto;
+    background-color: var(--bg-color);
+
+}
+header {
+    text-align: center;
+
+}
+.header_h1 {
+    font-family: var(--font-family), serif;
+    font-size: 100px;
+    text-shadow: var(--text-shadow);
+    padding: 10px;
+    letter-spacing: 5px;
+
+}
+.p-header {
+    font-size: 40px;
+    font-family: var(--font-family), serif;
+}
+.header_img {
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+hr {
+    height: 5px;
+    width: 90%;
+    background-color: #7ab7f1;
+}
+main {
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    font-family: var(--font-family), sans-serif;
+
+}
+.a_main {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px 3px black;
+    text-decoration: none;
+    color: #000;
+}
+.ed_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.ed_table th,
+.ed_table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+address {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    font-size: 40px;
+}
+.contact-link {
+    text-decoration: none;
+    color: #000;
+}
